@@ -41,7 +41,7 @@ h1{
     color:#555;
 }
 
-button, .btn{
+button{
     margin-top:30px;
     padding:15px 35px;
     background:#b89445;
@@ -49,20 +49,8 @@ button, .btn{
     color:white;
     font-size:16px;
     cursor:pointer;
-    text-decoration:none;
-    display:inline-block;
-    transition:background 0.3s ease, transform 0.2s ease;
-    border-radius:4px;
 }
 
-button:hover, .btn:hover{
-    background:#9d7a3a;
-    transform:scale(1.05);
-}
-
-button:active, .btn:active{
-    transform:scale(0.98);
-}
 
 section{
     padding:70px 10%;
@@ -74,6 +62,7 @@ section{
     margin-bottom:40px;
 }
 
+
 .products{
     display:flex;
     gap:30px;
@@ -81,30 +70,27 @@ section{
     flex-wrap:wrap;
 }
 
+
 .card{
     background:white;
     width:280px;
     padding:25px;
     text-align:center;
     border:1px solid #ddd;
-    transition:box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.card:hover{
-    box-shadow:0 4px 12px rgba(0,0,0,0.1);
-    transform:translateY(-5px);
-}
 
 .card img{
     width:100%;
     height:200px;
     object-fit:cover;
-    border-radius:4px;
 }
+
 
 .gold{
     color:#b89445;
 }
+
 
 footer{
     background:#222;
@@ -113,11 +99,14 @@ footer{
     padding:30px;
 }
 
+
 </style>
 
 </head>
 
+
 <body>
+
 
 <header>
 
@@ -135,13 +124,15 @@ Modern Asian Frozen Cuisine
 Authentic flavors made for modern homes.
 </p>
 
-<a href="https://m-homefoods.com" class="btn">
+<button onclick="location.href='https://m-homefoods.com'">
 Explore Products
-</a>
+</button>
 
 </div>
 
 </header>
+
+
 
 <section>
 
@@ -149,14 +140,13 @@ Explore Products
 Our Products
 </h2>
 
+
 <div class="products">
+
 
 <div class="card">
 
-<picture>
-  <source srcset="/2cae69dc-728e-4e4e-ada4-7949eb5b035a.png" type="image/png">
-  <img src="/2cae69dc-728e-4e4e-ada4-7949eb5b035a.png" alt="白菜猪肉饺 — Cabbage & pork dumplings" loading="lazy" decoding="async">
-</picture>
+<img src="2cae69dc-728e-4e4e-ada4-7949eb5b035a.png" alt="白菜猪肉饺 — Cabbage & pork dumplings">
 
 <h3>
 Five Color Dumplings
@@ -168,12 +158,11 @@ Premium dumplings with natural colors and authentic Asian flavors.
 
 </div>
 
+
+
 <div class="card">
 
-<picture>
-  <source srcset="/Gemini_Generated_Image_nkanlqnkanlqnkan.png" type="image/png">
-  <img src="/Gemini_Generated_Image_nkanlqnkanlqnkan.png" alt="鸡肉玉米饺 — Chicken & corn dumplings" loading="lazy" decoding="async">
-</picture>
+<img src="Gemini_Generated_Image_nkanlqnkanlqnkan.png" alt="鸡肉玉米饺 — Chicken & corn dumplings">
 
 <h3>
 Chicken & Corn Dumplings
@@ -185,12 +174,11 @@ Made with quality ingredients for family meals.
 
 </div>
 
+
+
 <div class="card">
 
-<picture>
-  <source srcset="/ce9d77d9-35e2-444a-b0a5-d045799dd480.png" type="image/png">
-  <img src="/ce9d77d9-35e2-444a-b0a5-d045799dd480.png" alt="牛肉蔬菜饺 — Beef & vegetable dumplings" loading="lazy" decoding="async">
-</picture>
+<img src="ce9d77d9-35e2-444a-b0a5-d045799dd480.png" alt="牛肉蔬菜饺 — Beef & vegetable dumplings">
 
 <h3>
 Vegetable & Beef Dumplings
@@ -202,15 +190,19 @@ Traditional taste with modern convenience.
 
 </div>
 
+
 </div>
 
 </section>
+
+
 
 <section>
 
 <h2 class="title">
 About M-HOME
 </h2>
+
 
 <p style="text-align:center;font-size:20px;line-height:1.8">
 
@@ -221,13 +213,18 @@ quality ingredients and convenient cooking.
 
 </p>
 
+
 </section>
+
+
+
 
 <section>
 
 <h2 class="title">
 Wholesale Partnership
 </h2>
+
 
 <p style="text-align:center;font-size:20px">
 
@@ -240,15 +237,19 @@ Contact us for samples and wholesale opportunities.
 
 </p>
 
+
 <center>
 
-<a href="https://m-homefoods.com" class="btn">
+<button onclick="location.href='https://m-homefoods.com'">
 Request Samples
-</a>
+</button>
 
 </center>
 
+
 </section>
+
+
 
 <footer>
 
@@ -263,6 +264,7 @@ M-HOME Foods
 New York, USA
 
 </footer>
+
 
 </body>
 
